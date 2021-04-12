@@ -1,0 +1,15 @@
+/* SHOP STYLES */
+
+/* MOBILE FIRST */
+
+.shop-item {
+  margin: 30px;
+}
+
+.shop-item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* need to design buttons, spacing, flaxbox stuff, shopping cart */

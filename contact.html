@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Check meta before submit-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jane's Jams | Contact Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="script.js"></script>
+    <script src="contactform.js"></script>
+    <!--Should this be in the body? -->
+  </head>
+  <body>
+    <!--Header and top nav section-->
+    <header>
+      <nav id="top-nav">
+        <ul class="menu">
+          <li class="nav-item"><a href="/about.html">About Us</a></li>
+          <li class="nav-item"><a href="/shop.html">Shop</a></li>
+          <li class="nav-item"><a href="/contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--need background section/image here-->
+      <!--main form-->
+      <form id="contact-form">
+        <h3>Get in touch</h3>
+        <section class="form-entry">
+          <input type="text" name="name" id="form-name" />
+          <label for="form-name">Please enter your name</label>
+        </section>
+        <section class="form-entry">
+          <input type="email" name="email" id="form-email" />
+          <label for="form-email">Please enter your email</label>
+        </section>
+        <section class="form-entry">
+          <p>What is your message about?</p>
+          <input type="checkbox" name="type" id="form-box-1" />
+          <label for="form-box-1">Jams</label><br />
+          <input type="checkbox" name="type" id="form-box-2" />
+          <label for="form-box-2">Jane</label><br />
+          <input type="checkbox" name="type" id="form-box-3" />
+          <label for="form-box-3">Other</label><br />
+        </section>
+        <section class="form-entry">
+          <p>Enter your message</p>
+          <textarea name="form-text" cols="40" rows="8"></textarea>
+        </section>
+        <button type="submit" class="btn form-button">Send your message</button>
+      </form>
+    </main>
+  </body>
+</html>

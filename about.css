@@ -1,0 +1,23 @@
+/* ABOUT STYLES */
+
+/* MOBILE FIRST */
+
+
+img {
+  max-width: 80%;
+  height: auto;
+  margin: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  padding: 15px;
+  flex-wrap: wrap;
+}
