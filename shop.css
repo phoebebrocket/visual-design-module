@@ -1,5 +1,6 @@
 /* SHOP STYLES */
 
+
 /* MOBILE FIRST */
 
 .shop-item {
@@ -10,6 +11,11 @@
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+button {
+  color: blue;
+  border-radius: 10%;
 }
 
 /* need to design buttons, spacing, flaxbox stuff, shopping cart */
