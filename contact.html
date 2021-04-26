@@ -8,7 +8,12 @@
     <title>Jane's Jams | Contact Us</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="contact.css">
-    <script type="text/javascript" src="/js/script.js"></script>
+    <link 
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script type="text/javascript" src="js/script.js"></script>
+    <script defer src="js/contactform.js"></script>
     <!--Should this be in the body? -->
   </head>
   <body>
@@ -38,33 +43,49 @@
       <section class="container form-container">
         <h2>Get in touch</h2>
       <form id="contact-form">
+        <div id="error"></div>
         <section class="form-entry">
+          <label for="form-name">Please enter your name:</label>
           <input type="text" name="name" id="form-name" />
-          <label for="form-name">Please enter your name</label>
+          
         </section>
 
         <section class="form-entry">
+          <label for="form-email">Please enter your email:</label>
           <input type="email" name="email" id="form-email" />
-          <label for="form-email">Please enter your email</label>
+          
         </section>
 
         <section class="form-entry">
           <p>What is your message about?</p>
+          <div class="checkbox">
+            <div class="form-box">
           <input type="checkbox" name="type" id="form-box-1" />
-          <label for="form-box-1">Jams</label><br />
+          <label for="form-box-1">Jams</label>
+        </div>
+
+        <div class="form-box">
           <input type="checkbox" name="type" id="form-box-2" />
-          <label for="form-box-2">Jane</label><br />
+          <label for="form-box-2">Jane</label>
+        </div>
+
+        <div class="form-box">
           <input type="checkbox" name="type" id="form-box-3" />
-          <label for="form-box-3">Other</label><br />
+          <label for="form-box-3">Other</label>
+        </div>
+        </div>
+          
         </section>
 
         <section class="form-entry">
-          <p>Enter your message</p>
-          <textarea name="form-text" cols="40" rows="8"></textarea>
+          <p>Enter your message:</p>
+          <textarea name="form-message" cols="40" rows="8" id="form-message"></textarea>
         </section>
 
+        <section class="form-entry">
         <button type="submit" class="btn form-button">Send your message</button>
-     
+      </section>
+
       </form>
     </section>
     </main>
