@@ -1,9 +1,17 @@
 // this is all page menu JS and any elements that happen on all pages
 
-let mainNav = document.getElementById('js-menu')
+//const mainNav = document.getElementById('js-menu')
 
-let navBarToggle = document.getElementById('js-navbar-toggle')
+//const navBarToggle = document.getElementById('js-navbar-toggle')
 
-navBarToggle.addEventListener('click', function () {
-  mainNav.classList.toggle('active')
-})
+//navBarToggle.addEventListener('click', () => {
+  //mainNav.classList.toggle('show')
+ // console.log("hi")
+//})
+
+const menuButton = document.getElementById('js-navbar-toggle')
+const menuLinks = document.getElementsByClassName('nav-item')[0]
+
+menuButton.addEventListener('click', ( )=> {
+  menuLinks.classList.toggle('active')
+} )

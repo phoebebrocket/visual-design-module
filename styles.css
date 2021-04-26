@@ -81,6 +81,10 @@ h2 {
   padding: 30px 0px 10px 0px;
 }
 
+
+/* HEADER */
+
+@media screen and (max-width: 899px) {
 .top-nav {
   font-size: 18px;
   padding-bottom: 10px;
@@ -88,12 +92,22 @@ h2 {
 
 .menu {
   list-style-type: none;
-  display: none;
+}
+
+.menu.active {
+  display: flex;
+}
+
+js-menu.active {
+  display: flex;
+  width: 100%;
 }
 
 .menu li {
   text-align: center;
   margin: 15px auto;
+  font-size: 20px;
+  padding: 5px;
 }
 
 .nav-item a {
@@ -114,9 +128,21 @@ h2 {
   cursor: pointer;
 }
 
-.active {
-  display: block;
+.nav-item {
+  display: none;
 }
+
+.nav-item.active {
+  display: flex;
+  width: 100%;
+}
+}
+
+/*.active {
+  display: block;
+}*/
+
+
 
 /* DESKTOP STYLES */
 

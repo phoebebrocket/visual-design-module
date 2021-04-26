@@ -13,6 +13,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-top: 1em;
 }
 
 .image-content {
@@ -131,6 +132,7 @@ input[type='checkbox'] {
     }
     .image-container {
         height: 300px;
+        margin-top: 1em;
     }
 
     .image-content {
