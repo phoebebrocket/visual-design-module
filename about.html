@@ -11,15 +11,26 @@
   </head>
   <body>
     <!--Header and top nav section-->
-    <header>
-      <nav id="top-nav">
-        <ul class="menu">
+    <header class="container top-nav-container">
+      <nav class="top-nav">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="material-icons">menu</i>
+        </span>
+        <img
+          class="logo"
+          src="images/Logo JJ-min.png"
+          alt="Jane's Jams Logo"
+          width="150px"
+          height="auto"
+        />
+        <ul class="menu" id="js-menu">
           <li class="nav-item"><a href="about.html">About Us</a></li>
           <li class="nav-item"><a href="shop.html">Shop</a></li>
           <li class="nav-item"><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <section class="story">
         <h2>Our Story</h2>
@@ -49,5 +60,19 @@
         </article>
       </section>
     </main>
+
+    <footer class="main-footer">
+      <section class="container main-footer-container">
+        <h3 class="brand-name">Jane's Jams</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.instagram.com/janebrocket" target="_blank"
+              >@janebrocket
+            </a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+
   </body>
 </html>

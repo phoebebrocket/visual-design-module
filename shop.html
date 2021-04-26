@@ -12,12 +12,12 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <script src="/js/script.js" async></script>
-    <script src="/js/shoppingcart.js"></script>
+    <script src="js/script.js" async></script>
+    <script src="js/shoppingcart.js"></script>
     <!--need to add shopping cart html-->
   </head>
   <body>
-    <header>
+    <header class="container top-nav-container">
       <nav class="top-nav">
         <span class="navbar-toggle" id="js-navbar-toggle">
           <i class="material-icons">menu</i>
@@ -36,98 +36,101 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <h2>Buy Jams</h2>
-      <!--Raspberry-->
-      <article class="shop-item">
-        <h3 class="shop-item-title">Raspberry</h3>
-        <img
-          class="shop-item-image"
-          src="Images/Raspberry-min.png"
-          alt="Image of raspberry jam being made"
-        />
-        <div class="shop-item-details">
-          <h4 class="shop-item-price">£5.00</h4>
-          <button class="btn shop-item-button" type="button">
-            ADD TO BASKET
-          </button>
+   
+    <section class="container content-section">
+      <h2 class="section-header">JAMS</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Raspberry</span>
+          <img class="shop-item-image" src="images/Raspberry-min.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£5.00</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO BASKET
+            </button>
+          </div>
         </div>
-      </article>
-      <!--Strawberry-->
-      <article class="shop-item">
-        <h3 class="shop-item-title">Strawberry</h3>
-        <img
-          class="shop-item-image"
-          src="images/Strawberry-min.png"
-          alt="Image of strawberry jam being made"
-        />
-        <div class="shop-item-details">
-          <h4 class="shop-item-price">£5.00</h4>
-          <button class="btn shop-item-button" type="button">
-            ADD TO BASKET
-          </button>
+        <div class="shop-item">
+          <span class="shop-item-title">Strawberry</span>
+          <img class="shop-item-image" src="images/Strawberry-min.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£5.00</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO BASKET
+            </button>
+          </div>
         </div>
-      </article>
-      <!--Apricot-->
-      <article class="shop-item">
-        <h3 class="shop-item-title">Apricot</h3>
-        <img
-          class="shop-item-image"
-          src="images/Apricot-min.png"
-          alt="Image of Apricot jam being made"
-        />
-        <div class="shop-item-details">
-          <h4 class="shop-item-price">£5.00</h4>
-          <button class="btn shop-item-button" type="button">
-            ADD TO BASKET
-          </button>
+        <div class="shop-item">
+          <span class="shop-item-title">Apricot</span>
+          <img class="shop-item-image" src="images/Apricot-min.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£5.00</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO BASKET
+            </button>
+          </div>
         </div>
-      </article>
-      <!--Blackcurrant-->
-      <article class="shop-item">
-        <h3 class="shop-item-title">Blackcurrant</h3>
-        <img
-          class="shop-item-image"
-          src="images/Blackcurrant-min.png"
-          alt="Image of blackcurrant jam being made"
-        />
-        <div class="shop-item-details">
-          <h4 class="shop-item-price">£5.00</h4>
-          <button class="btn shop-item-button" type="button">
-            ADD TO BASKET
-          </button>
+        <div class="shop-item">
+          <span class="shop-item-title">Blackcurrant</span>
+          <img class="shop-item-image" src="images/Blackcurrant-min.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£5.00</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO BASKET
+            </button>
+          </div>
         </div>
-      </article>
-      <!--Blackberry-->
-      <article class="shop-item">
-        <h3 class="shop-item-title">Blackberry</h3>
-        <img
-          class="shop-item-image"
-          src="images/Blackberry-min.png"
-          alt="Image of Blackberry jam being made"
-        />
-        <div class="shop-item-details">
-          <h4 class="shop-item-price">£5.00</h4>
-          <button class="btn shop-item-button" type="button">
-            ADD TO BASKET
-          </button>
+        <div class="shop-item">
+          <span class="shop-item-title">Blackberry</span>
+          <img class="shop-item-image" src="images/Blackberry-min.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£5.00</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO BASKET
+            </button>
+          </div>
         </div>
-      </article>
-      <!--Marmalade-->
-      <article class="shop-item">
-        <h3 class="shop-item-title">Marmalade</h3>
-        <img
-          class="shop-item-image"
-          src="images/Marmalade-min.png"
-          alt="Image of marmalade being made"
-        />
-        <div class="shop-item-details">
-          <h4 class="shop-item-price">£5.00</h4>
-          <button class="btn shop-item-button" type="button">
-            ADD TO BASKET
-          </button>
+        <div class="shop-item">
+          <span class="shop-item-title">Marmalade</span>
+          <img class="shop-item-image" src="images/Marmalade-min.png" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">£5.00</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO BASKET
+            </button>
+          </div>
         </div>
-      </article>
-    </main>
+      </div>
+    </section>
+
+    <section class="container content-section">
+      <h2 class="section-header">BASKET</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">£0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        BUY JAM
+      </button>
+    </section>
+
+    <footer class="main-footer">
+      <section class="container main-footer-container">
+        <h3 class="brand-name">Jane's Jams</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="https://www.instagram.com/janebrocket" target="_blank"
+              >@janebrocket
+            </a>
+          </li>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>
