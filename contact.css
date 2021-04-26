@@ -1,1 +1,51 @@
 /* contact page css */
+
+/* MOBILE */
+
+.form-container {
+    width: 800px;
+    text-align: center;
+    display: block;
+}
+
+#contact-form {
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+
+.form-entry {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em 0.67em;
+    cursor: pointer;
+    color: #2e294e;
+    border: 2px solid #73d2de;
+    border-radius: 0.3em;
+    font-weight: 500;
+    background-color: white;
+  }
+  
+  .btn:hover {
+    background-color: #73d2de;
+  }
+
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+    .form-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5em;
+      }
+}

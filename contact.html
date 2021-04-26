@@ -8,12 +8,10 @@
     <title>Jane's Jams | Contact Us</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="contact.css">
-    <script src="/js/script.js"></script>
-    <script src="/js/shoppingcart.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
     <!--Should this be in the body? -->
   </head>
   <body>
-    <!--Header and top nav section-->
     <header class="container top-nav-container">
       <nav class="top-nav">
         <span class="navbar-toggle" id="js-navbar-toggle">
@@ -37,16 +35,19 @@
     <main>
       <!--need background section/image here-->
       <!--main form-->
+      <section class="container form-container">
+        <h2>Get in touch</h2>
       <form id="contact-form">
-        <h3>Get in touch</h3>
         <section class="form-entry">
           <input type="text" name="name" id="form-name" />
           <label for="form-name">Please enter your name</label>
         </section>
+
         <section class="form-entry">
           <input type="email" name="email" id="form-email" />
           <label for="form-email">Please enter your email</label>
         </section>
+
         <section class="form-entry">
           <p>What is your message about?</p>
           <input type="checkbox" name="type" id="form-box-1" />
@@ -56,12 +57,16 @@
           <input type="checkbox" name="type" id="form-box-3" />
           <label for="form-box-3">Other</label><br />
         </section>
+
         <section class="form-entry">
           <p>Enter your message</p>
           <textarea name="form-text" cols="40" rows="8"></textarea>
         </section>
+
         <button type="submit" class="btn form-button">Send your message</button>
+     
       </form>
+    </section>
     </main>
     
     <footer class="main-footer">
