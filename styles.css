@@ -30,7 +30,7 @@ body {
 }
 
 .main-footer {
-  background-color: #73d2de;
+  background-color: #2e294e;
   color: #2e294e;
   padding: 0.25em 0;
 }
@@ -43,6 +43,7 @@ body {
 .main-footer-container ul {
   flex-grow: 1;
   text-align: end;
+  margin: 1em;
 }
 
 .footer-nav li {
