@@ -23,7 +23,7 @@ body {
 }
 
 #main-text {
-    animation: appear 10s;
+    animation: appear 7s;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -60,7 +60,7 @@ a {
 
 #container-logo {
     margin-left: auto;
-    margin-right: 2em;
+    margin-right: 4em;
 }
 
 #logo {
@@ -68,7 +68,7 @@ a {
     width: auto;
     top: 50px;
     left: 1100px;
-    animation: appear 10s;
+    animation: appear 7s;
 }
 
 
@@ -84,8 +84,8 @@ a {
     height: auto;
     position: relative;
     align-items: center;
-    animation: jam-lid 3s;
-    animation-delay: 3s;
+    animation: jam-lid 2s;
+    animation-delay: 2s;
     animation-timing-function: ease-in-out;
 }
 
@@ -120,6 +120,10 @@ a {
 
 @keyframes fill {
     0% {
+        background-color: #fff;
+    }
+   
+    5% {
         background-color: #fff;
     }
 
