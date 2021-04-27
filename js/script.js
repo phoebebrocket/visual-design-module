@@ -10,7 +10,7 @@
 //})
 
 const menuButton = document.getElementById('js-navbar-toggle')
-const menuLinks = document.getElementsByClassName('nav-item')[0]
+const menuLinks = document.getElementsByClassName('menu')[0]
 
 menuButton.addEventListener('click', ( )=> {
   menuLinks.classList.toggle('active')

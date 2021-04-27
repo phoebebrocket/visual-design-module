@@ -21,6 +21,7 @@ body {
 }
 
 
+
 /* FOOTER */
 
 .container {
@@ -92,15 +93,19 @@ h2 {
 
 .menu {
   list-style-type: none;
+  display: none;
+  margin-top: 10px;
 }
 
 .menu.active {
   display: flex;
+  flex-wrap: wrap;
+
 }
 
-js-menu.active {
-  display: flex;
+.nav-item {
   width: 100%;
+  font-size: 20px;
 }
 
 .menu li {
@@ -128,14 +133,7 @@ js-menu.active {
   cursor: pointer;
 }
 
-.nav-item {
-  display: none;
-}
 
-.nav-item.active {
-  display: flex;
-  width: 100%;
-}
 }
 
 /*.active {
@@ -191,3 +189,6 @@ js-menu.active {
   }
   
 }
+
+/* sticky footer */
+
