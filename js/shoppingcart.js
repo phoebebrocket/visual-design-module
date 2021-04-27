@@ -5,12 +5,13 @@ if (document.readyState == 'loading') {
 }
 
 function ready() {
-  const removeCartItemButtons = document.getElementsByClassName('btn-danger')
-  console.log(removeCartItemButtons)
+  const removeCartItemButtons = document.getElementsByClassName('cart-btn')
   for (let i = 0; i < removeCartItemButtons.length; i++) {
     let button = removeCartItemButtons[i]
     button.addEventListener('click', removeCartItem)
   }
+
+  
 
   const quantityInputs = document.getElementsByClassName('cart-quantity-input')
   for (let i = 0; i < quantityInputs.length; i++) {
@@ -84,11 +85,12 @@ function addItemToCart(title, price, imageSrc) {
     <span class="cart-price cart-column">${price}</span>
     <div class="cart-quantity cart-column">
       <input class="cart-quantity-input" type="number" value="1" />
-      <button class="btn" type="button">REMOVE</button>
+      <button class="cart-btn" type="button">REMOVE</button>
+      <button class="cart-icon" type="button"><i class="material-icons md-36">delete</i></button>
     </div>`
   cartRow.innerHTML = cartRowContents
   cartItems.append(cartRow)
-  cartRow.getElementsByClassName('btn')[0].addEventListener('click', removeCartItem)
+  cartRow.getElementsByClassName('cart-btn')[0].addEventListener('click', removeCartItem)
   cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
 }
 
