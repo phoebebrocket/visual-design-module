@@ -9,9 +9,7 @@ function ready() {
   for (let i = 0; i < removeCartItemButtons.length; i++) {
     let button = removeCartItemButtons[i]
     button.addEventListener('click', removeCartItem)
-  }
-
-  
+    }
 
   const quantityInputs = document.getElementsByClassName('cart-quantity-input')
   for (let i = 0; i < quantityInputs.length; i++) {
@@ -36,6 +34,7 @@ function purchaseClicked() {
   }
   updateCartTotal()
 }
+
 
 function removeCartItem() {
   const buttonClicked = event.target
@@ -86,7 +85,6 @@ function addItemToCart(title, price, imageSrc) {
     <div class="cart-quantity cart-column">
       <input class="cart-quantity-input" type="number" value="1" />
       <button class="cart-btn" type="button">REMOVE</button>
-      <button class="cart-icon" type="button"><i class="material-icons md-36">delete</i></button>
     </div>`
   cartRow.innerHTML = cartRowContents
   cartItems.append(cartRow)

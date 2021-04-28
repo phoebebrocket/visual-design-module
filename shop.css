@@ -190,17 +190,13 @@
   .cart-quantity-input {
     margin-right: 15px;
   }
-  
-  .cart-btn {
-    display: none;
+
+  .shop-item-button {
+    font-size: 16px;
   }
 
-  .cart-icon {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border: none;
-    background-color: #fff;
+  .shop-item-price {
+    font-size: 18px;
   }
 }
 

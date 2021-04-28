@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Check meta-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./homepagestyles.css">
-    <title>Jane's Jams</title>
+    <title>Jane's Jams | About Us</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="weather.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script src="js/script.js" defer></script>
+
   </head>
   <body>
-    <nav id="top-nav">
-      <ul class="menu-bar">
-        <li class="item"><a href="#">Home</a></li>
-        <li class="item"><a href="#">About</a></li>
-        <li class="item"><a href="#">Products</a></li>
-        <li class="item"><a href="#">Contact</a></li>
-      </ul>
-      </li>
-    </nav>
+    <div class="input">
+      <input type="text" class="input-value">
+      <input type="submit" value="submit" class="button">
+    </div>
+    
+  <div class="display">
+    <h1 class="name"></h1>
+    <p class="desc"></p>
+    <p class="temp"></p>
+  </div>
+
+    <script src="js/weather.js"></script>
   </body>
-</html>
+  </html>
