@@ -39,9 +39,6 @@ h2 {
     width: 100%;
 }
 
-
-
-
 #contact-form {
     max-width: 800px;;
     padding-bottom: 20px;
@@ -122,8 +119,38 @@ input[type='checkbox'] {
     margin: 0 10px;
   }
 
+
+/* TABLET */
+
+@media screen and (min-width: 600px) {
+    .form-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5em;
+      }
+      label {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .image-container {
+        height: 300px;
+        margin-top: 1em;
+    }
+
+    .image-content {
+        width: 500px;
+    }
+
+    .image-content h2, .image-content p {
+        color: #fff !important;
+        padding: 10px;
+        
+    }
+}
+
 /* DESKTOP */
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 900px) {
     .form-container {
         max-width: 1200px;
         margin: 0 auto;
