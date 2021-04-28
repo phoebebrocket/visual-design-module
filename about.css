@@ -71,7 +71,7 @@ p:last-child {
   }
 
   .weather-container {
-    max-width: 25%;
+    max-width: 30%;
   }
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .weather-container {
-  max-width: 15%;
+  max-width: 25%;
 }
 
 }
