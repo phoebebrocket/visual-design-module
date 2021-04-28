@@ -1,13 +1,5 @@
 /* Here will be funky loading screen */
 
-.main-footer {
-    display: none;
-}
-
-.top-nav-container {
-    display: none;
-}
-
 main {
     height: 100vh;
     display: flex;
