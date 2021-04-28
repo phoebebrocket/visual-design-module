@@ -88,6 +88,7 @@ h2 {
 }
 
 
+
 /* HEADER */
 
 @media screen and (max-width: 899px) {
@@ -123,6 +124,9 @@ h2 {
   display: inline-block;
   margin-top: 20px;
   margin-left: 0px;
+  width: 100px;
+  height: auto;
+  
 }
 
 .navbar-toggle {
@@ -172,6 +176,7 @@ h2 {
 
   .logo {
     margin-top: 20px;
+    width: 150px;
   }
 
   .navbar-toggle {
