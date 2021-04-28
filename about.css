@@ -13,7 +13,7 @@ h2 {
 }
 
 .main-img {
-  width: 300px;
+  max-width: 300px;
   height: auto;
   margin-top: 1em;
   align-items: center;
@@ -78,7 +78,7 @@ p:last-child {
 }
 
 .main-img {
-  width: 800px;
+  max-width: 800px;
   height: auto;
   margin: 5px;
   display: block;
