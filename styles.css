@@ -9,6 +9,7 @@
   margin: 0;
   text-decoration: none;
   list-style-type: none;
+  color: #2e294e;
 }
 
 html,
@@ -99,7 +100,6 @@ h2 {
 .menu.active {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .nav-item {
@@ -112,10 +112,6 @@ h2 {
   margin: 15px auto;
   font-size: 20px;
   padding: 5px;
-}
-
-.nav-item a {
-  text-decoration: none;
 }
 
 .logo {
@@ -134,11 +130,6 @@ h2 {
 
 
 }
-
-/*.active {
-  display: block;
-}*/
-
 
 
 /* DESKTOP STYLES */
@@ -159,7 +150,6 @@ h2 {
     display: flex;
     justify-content: space-between;    
     padding-bottom: 0;
-    /*height: 70px;*/
     align-items: center;
   }
 
@@ -189,5 +179,4 @@ h2 {
   
 }
 
-/* sticky footer */
 
