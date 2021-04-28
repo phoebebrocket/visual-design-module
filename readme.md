@@ -6,19 +6,20 @@ Jane's Jams is a website all about the jam my mum makes.
 
 ## Pages
 
-There a three main HTML pages:
+There a four main HTML pages:
 * Shop
 * About
 * Contact Us
-As well as a landing page featuring a fun animation before entering the website.
+* A landing page featuring a fun animation before entering the website.
 
 ## Styles
 
-There are 4 stylesheets, as per the Birkbeck recommendation. These are:
+There are 4 stylesheets, and one main, as per the Birkbeck recommendation. These are:
 * styles.css containing all the main styles for all pages
 * shop.css for styling the shop page and shopping cart
 * about.css for the about page
 * contact.css for the contact form
+* index.css with all the animation for the landing page
 
 ## JavaScript
 
