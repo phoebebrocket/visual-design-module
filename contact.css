@@ -24,9 +24,7 @@
     transform: translate(-50%, -50%);
 }
 
-p {
-    color: #272727 !important;
-}
+
 
 .image-content h2, .image-content p {
     color: #fff !important;
@@ -146,20 +144,16 @@ input[type='checkbox'] {
         padding: 10px;
         
     }
+
+    p {
+        font-size: 20px;
+    }
 }
 
 /* DESKTOP */
 
 @media screen and (min-width: 900px) {
-    .form-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 1.5em;
-      }
-      label {
-        font-size: 20px;
-        line-height: 26px;
-    }
+ 
     .image-container {
         height: 300px;
         margin-top: 1em;
@@ -167,11 +161,5 @@ input[type='checkbox'] {
 
     .image-content {
         width: 700px;
-    }
-
-    .image-content h2, .image-content p {
-        color: #fff !important;
-        padding: 10px;
-        
     }
 }
