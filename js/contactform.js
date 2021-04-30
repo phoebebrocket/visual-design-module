@@ -14,7 +14,7 @@ form.addEventListener('submit', (e) => {
     let messages = []
 
     if (formName.value === '' || formName.value == null) {
-        messages.push('Please enter your name :)')
+        messages.push('Please enter your name')
     }
 
     if (email.value === '' || email.value == null) {
@@ -31,6 +31,6 @@ form.addEventListener('submit', (e) => {
     }
 
     else {
-        alert('Your message has been sent and we will be in touch soon!')
+        alert('Your message has been sent and we will be in touch soon! Thank you')
     }
 })
