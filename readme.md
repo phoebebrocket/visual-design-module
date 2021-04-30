@@ -1,6 +1,4 @@
-# Read Me :)
-
-## Jane's Jams Website
+# Jane's Jams Website
 
 Jane's Jams is a website all about the jam my mum makes. 
 
