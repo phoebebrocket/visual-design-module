@@ -1,0 +1,82 @@
+/* contact page css */
+
+/* MOBILE */
+
+
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.image-content h2, .image-content p {
+    color: #fff !important;
+    padding: 5px;
+}
+
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+svg {
+    width: 100px;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/* TABLET */
+
+@media screen and (min-width: 600px) {
+    .form-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5em;
+      }
+      label {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .image-container {
+        height: 300px;
+        margin-top: 1em;
+    }
+
+    .image-content {
+        width: 500px;
+    }
+
+    .image-content h2, .image-content p {
+        color: #fff !important;
+        padding: 10px;
+        
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 900px) {
+ 
+    .image-container {
+        height: 300px;
+        margin-top: 1em;
+    }
+
+    .image-content {
+        width: 700px;
+    }
+}

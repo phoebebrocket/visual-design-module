@@ -1,0 +1,35 @@
+/* ABOUT STYLES */
+
+/* MOBILE FIRST */
+
+h2 {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop {
+  width: 900px;
+  height: auto;
+}
+
+.mobile {
+  width: auto;
+  height: 1000px;
+}
+
+h3, img, p {
+  padding: 20px;
+}
+
+svg {
+  width: 100px;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+}

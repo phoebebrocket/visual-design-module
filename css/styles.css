@@ -134,6 +134,14 @@ h2 {
 
 }
 
+h2 {
+  text-align: center;
+}
+
+.bullet {
+  list-style-type: disc;
+}
+
 
 /* DESKTOP STYLES */
 

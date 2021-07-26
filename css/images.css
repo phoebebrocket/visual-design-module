@@ -1,0 +1,23 @@
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 600px;
+  height: auto;
+}
+
+h3, img, p {
+  padding: 20px;
+}
+
+svg {
+  width: 100px;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
