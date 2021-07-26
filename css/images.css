@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 img {
@@ -21,3 +22,12 @@ svg {
   margin-top: 20px;
 }
 
+.list {
+  width: 800px;
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    width: 500px;
+  }
+}

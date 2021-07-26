@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--Check meta before submit-->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,8 +13,6 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <script src="js/script.js" defer></script>
-    <script defer src="js/contactform.js"></script>
-    <!--Should this be in the body? -->
   </head>
   <body>
     <header class="container top-nav-container">
@@ -49,6 +46,16 @@
           <div class="gif-container">
             <img class="gif-image" src="images/Comp 1_1.gif"/>
             <p>Explaining how I did it:</p>
+            <ul class="list-last">
+              <li class="bullet">I began by filling the logo svg I had made with colour, and imported it into Adobe After Effects.</li>
+              <li class="bullet">Using transform, I set a rotation keyframe at 0:00f in the timeline.</li>
+              <li class="bullet">I then rotated the image 180 degrees and set another keyframe at 01:00f.</li>
+              <li class="bullet">I rotated the image another 180 degrees and set the final keyframe.</li>
+              <li class="bullet">As I wanted the gif to continuously rotate in a smooth manner, I set the final keyframe at 02:01f.</li>
+              <li class="bullet">By doing this, it prevented the image looping 360 degrees and stopping before starting again.</li>
+              <li class="bullet">I then exported the gif by adding it to the Adobe Media Encoder Queue</li>
+              <li class="bullet">I could then save the gif by selecting 'Animated GIF' in Media Encoder and saving it locally as a .gif file.</li>
+            </ul>
            </div>
         
       

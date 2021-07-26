@@ -20,6 +20,15 @@ body {
   color: #272727;
 }
 
+.list-last {
+  margin-bottom: 100px;
+}
+
+h3, img, p {
+  padding: 20px;
+}
+
+
 
 
 /* FOOTER */
@@ -123,6 +132,8 @@ h2 {
   height: auto;
 }
 
+
+
 .navbar-toggle {
   position: absolute;
   top: 25px;
@@ -137,8 +148,7 @@ h2 {
 h2 {
   text-align: center;
 }
-
-.bullet {
+ .bullet {
   list-style-type: disc;
 }
 
